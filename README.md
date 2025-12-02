@@ -14,7 +14,6 @@ Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia
 
 ## Estructura del proyecto
 
-\`\`\`
 📦 portafolio-mayra-v2/
 ├── 📁 app/
 │ ├── layout.tsx # Layout principal
@@ -38,7 +37,7 @@ Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia
 ├── next.config.mjs
 ├── tsconfig.json
 └── .gitignore
-\`\`\`
+
 
 ## Cómo usar este proyecto
 
