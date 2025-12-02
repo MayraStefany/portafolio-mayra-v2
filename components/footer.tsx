@@ -18,25 +18,25 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const handleDownloadCV = () => {
-    const cvUrl = "/cv-mayra-devops.pdf"
+    const cvUrl = "CV_Mayra Torres Munares.pdf"
     const link = document.createElement("a")
     link.href = cvUrl
-    link.download = "Mayra_DevOps_Engineer_CV.pdf"
+    link.download = "CV_Mayra Torres Munares.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
   }
 
   const handleEmail = () => {
-    window.location.href = "mailto:mayra@devops.com"
+    window.location.href = "mailto:mayratorresmunares@gmail.com"
   }
 
   const handleGitHub = () => {
-    window.open("https://github.com", "_blank")
+    window.open("https://github.com/MayraStefany", "_blank")
   }
 
   const handleLinkedIn = () => {
-    window.open("https://linkedin.com", "_blank")
+    window.open("https://linkedin.com/in/mayra-stefany-torres-munares", "_blank")
   }
 
   const socialLinks = [
@@ -87,9 +87,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Contacto</h4>
             <ul className="space-y-2 text-sm text-muted">
-              <li>Email: mayra@devops.com</li>
-              <li>Teléfono: +34 XXX XXX XXX</li>
-              <li>Ubicación: España</li>
+              <li>Email: mayratorresmunares@gmail.com</li>
+              <li>Teléfono: +51 951 062 517</li>
+              <li>Ubicación: Perú</li>
             </ul>
           </div>
 

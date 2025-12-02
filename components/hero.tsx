@@ -23,10 +23,10 @@ export default function Hero() {
   }, [])
 
   const handleDownloadCV = () => {
-    const cvUrl = "/cv-mayra-devops.pdf"
+    const cvUrl = "CV_Mayra Torres Munares.pdf"
     const link = document.createElement("a")
     link.href = cvUrl
-    link.download = "Mayra_DevOps_Engineer_CV.pdf"
+    link.download = "CV_Mayra Torres Munares.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)

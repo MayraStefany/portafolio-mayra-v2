@@ -28,7 +28,7 @@ export default function About() {
 
   const stats = [
     { number: "5+", label: "Años Experiencia" },
-    { number: "50+", label: "Proyectos Completados" },
+    { number: "10+", label: "Proyectos Completados" },
     { number: "12+", label: "Tecnologías" },
     { number: "100%", label: "Dedicación" },
   ]
