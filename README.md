@@ -1,207 +1,129 @@
-<div align="center">
+# Mayra Torres | DevOps Engineer
 
-# 👩‍💻 Mayra Torres | DevOps Engineer
+¡Bienvenido a mi portafolio profesional! Aquí encontrarás una visión clara de mi experiencia, habilidades y proyectos en el mundo de DevOps, automatización y cloud computing.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](https://github.com/MayraStefany/portafolio-mayra-v2)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-production%20ready-brightgreen?style=flat-square)](README.md)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19.2-61dafb?style=flat-square&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
+## Sobre este proyecto
 
-**Portafolio profesional minimalista y moderno diseñado para DevOps Engineers**
+Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia de manera moderna y profesional. Es un proyecto Next.js minimalista pero potente, diseñado con atención a los detalles y optimizado para ofrecer la mejor experiencia tanto a quienes lo visitan como a otros desarrolladores que quieran explorar el código.
 
-[Visitar Sitio](https://mayra-devops.com) • [Ver Documentación](./README_PROFESIONAL.md) • [Reportar Bug](https://github.com/MayraStefany/portafolio-mayra-v2/issues)
+**Tecnologías principales:**
+- Next.js 16 + React 19.2
+- TypeScript para type safety
+- Tailwind CSS 4 para estilos
+- Componentes accesibles con shadcn/ui
 
-</div>
+## Estructura del proyecto
 
----
+\`\`\`
+📦 portafolio-mayra-v2/
+├── 📁 app/
+│   ├── layout.tsx                 # Layout principal
+│   ├── page.tsx                   # Página de inicio
+│   └── globals.css                # Estilos globales
+├── 📁 components/
+│   ├── navigation.tsx             # Barra de navegación
+│   ├── hero.tsx                   # Sección principal
+│   ├── about.tsx                  # Sobre mí
+│   ├── skills.tsx                 # Habilidades técnicas
+│   ├── projects.tsx               # Mis proyectos
+│   ├── experience.tsx             # Experiencia profesional
+│   └── footer.tsx                 # Pie de página
+├── 📁 public/                     # Archivos estáticos
+├── 📁 scripts/                    # Scripts útiles
+│   ├── clean-git.sh
+│   ├── optimize-images.sh
+│   └── check-size.sh
+└── 📋 Configuración
+    ├── package.json
+    ├── next.config.mjs
+    ├── tsconfig.json
+    └── .gitignore
+\`\`\`
 
-## ✨ Características
-
-- 🎨 **Diseño Moderno** - Dark mode elegante con animaciones suaves
-- 📱 **Totalmente Responsivo** - Perfecta experiencia en mobile, tablet y desktop
-- ⚡ **Ultra Rápido** - Optimizado para Core Web Vitals (95+ Lighthouse)
-- 🔧 **Profesional** - Código limpio, comentado y documentado
-- 🚀 **Production Ready** - Listo para desplegar inmediatamente
-- 📊 **Interactivo** - Botones funcionales, filtros, scroll suave
-- 🎯 **SEO Optimizado** - Metadatos completos y sem ántica HTML correcta
-
----
-
-## 📋 Secciones del Portafolio
-
-| Sección | Descripción |
-|---------|------------|
-| **Hero** | Presentación principal con CTA y animaciones |
-| **Sobre Mí** | Biografía profesional con estadísticas |
-| **Skills** | 6 categorías de tecnologías: Cloud, DevOps, Backend, Frontend, Data, Tools |
-| **Proyectos** | Portfolio con filtros interactivos y métricas de impacto |
-| **Experiencia** | Timeline profesional con logros y certificaciones |
-| **Contacto** | Enlaces a email, GitHub, LinkedIn y descargar CV |
-
----
-
-## 🚀 Quick Start
+## Cómo usar este proyecto
 
 ### Requisitos
-- Node.js 18+
-- pnpm (recomendado), npm o yarn
+- Node.js 18 o superior
+- pnpm, npm o yarn
 
-### Instalación (3 pasos)
+### Instalación rápida
 
 \`\`\`bash
-# 1. Clonar repositorio
+# Clonar el repositorio
 git clone https://github.com/MayraStefany/portafolio-mayra-v2.git
 cd Portafolio_MayraTorres
 
-# 2. Instalar dependencias
+# Instalar dependencias
 pnpm install
 
-# 3. Iniciar servidor de desarrollo
+# Iniciar servidor de desarrollo
 pnpm dev
 \`\`\`
 
-Abre **[http://localhost:3000](http://localhost:3000)** en tu navegador. ✅
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador. ✨
 
----
-
-## 📁 Estructura del Proyecto
-
-\`\`\`
-Portafolio_MayraTorres/
-│
-├── 📂 app/
-│   ├── layout.tsx              # Layout principal con metadata
-│   ├── page.tsx                # Página principal (orquesta componentes)
-│   └── globals.css             # Estilos globales y variables CSS
-│
-├── 📂 components/
-│   ├── navigation.tsx          # Navbar sticky
-│   ├── hero.tsx                # Hero section con CTA
-│   ├── about.tsx               # Sección Sobre mí
-│   ├── skills.tsx              # Stack técnico por categorías
-│   ├── projects.tsx            # Proyectos con filtros
-│   ├── experience.tsx          # Timeline profesional
-│   └── footer.tsx              # Pie de página
-│
-├── 📂 lib/
-│   └── utils.ts                # Funciones utilidad
-│
-├── 📂 public/
-│   └── assets/                 # Imágenes estáticas
-│
-├── 📂 scripts/
-│   ├── clean-git.sh            # Limpia repositorio Git
-│   ├── optimize-images.sh      # Optimiza imágenes
-│   └── check-size.sh           # Analiza tamaño del repo
-│
-├── 📄 package.json             # Dependencias del proyecto
-├── 📄 next.config.mjs          # Configuración de Next.js
-├── 📄 tsconfig.json            # Configuración de TypeScript
-├── 📄 .gitignore               # Archivos ignorados en Git
-├── 📄 .env.local.example       # Template de variables de entorno
-│
-└── 📋 Documentación/
-    ├── README.md               # Este archivo (inicio)
-    ├── README_PROFESIONAL.md   # Documentación detallada
-    ├── PASOS_RAPIDOS.md        # Quick start avanzado
-    ├── GUIA_GITHUB_Y_OPTIMIZACION.md  # Solución de Git
-    ├── VERSIONADO.md           # Control de versiones
-    └── RESUMEN_FINAL.md        # Overview general
-\`\`\`
-
----
-
-## 🎨 Stack Tecnológico
-
-### Framework & Runtime
-- **Next.js 16** - React framework con SSR/SSG
-- **React 19.2** - UI library
-- **Node.js** - Runtime environment
-
-### Lenguaje & Tipado
-- **TypeScript 5.7** - Type safety
-- **ESLint** - Code linting
-
-### Estilos
-- **Tailwind CSS 4** - Utility-first CSS
-- **Custom CSS** - Variables y animaciones
-
-### Iconos & UI
-- **Lucide React** - Icon library
-- **shadcn/ui** - Component library
-
-### DevOps
-- **pnpm** - Fast package manager
-- **Turbopack** - Next-gen bundler
-
----
-
-## 🔧 Scripts Disponibles
+### Comandos disponibles
 
 \`\`\`bash
-# Desarrollo
-pnpm dev              # 🚀 Inicia servidor en localhost:3000
+pnpm dev              # 🚀 Desarrollo local
+pnpm build            # 🔨 Compilar para producción
+pnpm start            # ▶️ Ejecutar producción
+pnpm lint             # 🔍 Verificar código
 
-# Producción
-pnpm build           # 🔨 Compila para producción
-pnpm start           # ▶️ Ejecuta build compilado
-
-# Calidad
-pnpm lint            # 🔍 Verifica ESLint
-
-# Utilidad (opcional)
-bash scripts/clean-git.sh           # Limpia node_modules de Git
-bash scripts/optimize-images.sh     # Optimiza imágenes
-bash scripts/check-size.sh          # Analiza tamaño del repo
+# Scripts opcionales
+bash scripts/clean-git.sh           # Limpiar node_modules de Git
+bash scripts/optimize-images.sh     # Optimizar imágenes
+bash scripts/check-size.sh          # Analizar tamaño del repo
 \`\`\`
 
----
+## Cómo personalizar este portafolio
 
-## 🎯 Personalización
+### 1. Cambiar información personal
 
-### 1️⃣ Cambiar Información Personal
+**En `components/hero.tsx`:**
+- Edita el título y descripción principal
+- Actualiza el link de descargar CV
 
-**Hero Section** - `components/hero.tsx`
-\`\`\`tsx
-// Actualiza tu descripción
-<p>Tu descripción aquí...</p>
+**En `components/navigation.tsx`:**
+- Cambia "Mayra | DevOps Engineer" por tu nombre y rol
 
-// Cambiar CV
-const cvUrl = "/tu-cv.pdf"
-\`\`\`
+### 2. Actualizar tus habilidades
 
-### 2️⃣ Modificar Skills
+**En `components/skills.tsx`:**
+Modifica el objeto `skillsData` con tus tecnologías:
 
-**Skills Component** - `components/skills.tsx`
 \`\`\`tsx
 const skillsData = [
   {
     category: "Cloud",
-    skills: ["Azure", "AWS", "GCP"]
-  }
+    skills: ["Azure", "AWS", "GCP", "Kubernetes"]
+  },
+  // Agrega más categorías según necesites
 ]
 \`\`\`
 
-### 3️⃣ Agregar Proyectos
+### 3. Agregar tus proyectos
 
-**Projects Component** - `components/projects.tsx`
+**En `components/projects.tsx`:**
+Completa el objeto `projectsData`:
+
 \`\`\`tsx
 const projectsData = [
   {
-    title: "Mi Proyecto",
-    description: "Descripción...",
-    tags: ["React", "Node.js"],
-    link: "https://proyecto.com",
-    impact: "50% mejora en performance"
+    title: "Nombre del proyecto",
+    description: "Qué hizo y por qué",
+    tags: ["Tech 1", "Tech 2"],
+    link: "https://github.com/...",
+    impact: "Resultado o métrica de impacto"
   }
 ]
 \`\`\`
 
-### 4️⃣ Cambiar Colores
+### 4. Cambiar colores
 
-**Global Styles** - `app/globals.css`
+**En `app/globals.css`:**
+Modifica las variables CSS:
+
 \`\`\`css
 :root {
   --primary: #0088ff;        /* Azul principal */
@@ -211,153 +133,99 @@ const projectsData = [
 }
 \`\`\`
 
----
+## Problemas comunes y soluciones
 
-## 📊 Rendimiento
+### Error: "File node_modules too large" al hacer push a GitHub
 
-### Puntuaciones Lighthouse
-| Métrica | Score | Target |
-|---------|-------|--------|
-| Performance | 98 | 90+ |
-| Accessibility | 96 | 90+ |
-| Best Practices | 95 | 90+ |
-| SEO | 100 | 100 |
-
-### Optimizaciones Incluidas
-- Code splitting automático
-- Image optimization
-- CSS minification
-- Lazy loading implícito
-- CSS-in-JS minimizado
-
----
-
-## 🚢 Despliegue
-
-### Opción 1: Vercel (Recomendado)
+Si ves este error al hacer `git push`:
 
 \`\`\`bash
-# 1. Conecta tu GitHub en vercel.com
-# 2. Selecciona este repositorio
-# 3. Automático: cada push = nuevo deploy
-\`\`\`
-
-### Opción 2: Otros Servicios
-- [Netlify](https://netlify.com)
-- [GitHub Pages](https://pages.github.com)
-- [Cloudflare Pages](https://pages.cloudflare.com)
-- Servidor propio (Docker, Linux, etc.)
-
----
-
-## 🔄 Git & Versionado
-
-### Convención de Commits
-\`\`\`bash
-feat:      Nueva característica
-fix:       Corrección de bug
-docs:      Documentación
-style:     Formato sin cambios lógicos
-refactor:  Refactorización
-perf:      Mejora de rendimiento
-chore:     Tareas de mantenimiento
-\`\`\`
-
-### Ejemplo
-\`\`\`bash
-git add .
-git commit -m "feat: add chatbot section"
-git push origin master-dev
-\`\`\`
-
----
-
-## 🐛 Troubleshooting
-
-### Error: "node_modules too large" en Git
-\`\`\`bash
+# Ejecuta este script
 bash scripts/clean-git.sh
-# O ver: GUIA_GITHUB_Y_OPTIMIZACION.md
+
+# Luego haz push nuevamente
+git push -u origin master-dev
 \`\`\`
+
+**¿Qué hace?** Limpia node_modules de Git para reducir el tamaño del repositorio.
 
 ### Error: "Port 3000 in use"
+
 \`\`\`bash
+# Usa otro puerto
 pnpm dev -- -p 3001
 \`\`\`
 
 ### Error: "Module not found"
+
 \`\`\`bash
+# Reinstala todo
 rm -rf node_modules .next
 pnpm install
 pnpm dev
 \`\`\`
 
-### Más ayuda
-Ver documentación completa en [GUIA_GITHUB_Y_OPTIMIZACION.md](./GUIA_GITHUB_Y_OPTIMIZACION.md)
+## Despliegue
+
+### Opción 1: Vercel (Recomendado)
+
+1. Sube tu código a GitHub
+2. Ve a [vercel.com](https://vercel.com)
+3. Conecta tu repositorio
+4. Cada push a `master-dev` se despliega automáticamente ✨
+
+### Opción 2: Otros servicios
+
+- [Netlify](https://netlify.com) - Muy fácil
+- [GitHub Pages](https://pages.github.com) - Gratis
+- [Cloudflare Pages](https://pages.cloudflare.com) - Rápido
+- Servidor propio con Docker o Linux
+
+## Rendimiento
+
+Este portafolio fue optimizado para máxima velocidad y accesibilidad:
+
+- ⚡ **98/100** en Performance (Lighthouse)
+- ♿ **96/100** en Accessibility
+- 📋 **95/100** en Best Practices
+- 🔍 **100/100** en SEO
+
+## Stack tecnológico completo
+
+| Categoría | Tecnología |
+|-----------|-----------|
+| **Framework** | Next.js 16 |
+| **UI** | React 19.2 |
+| **Lenguaje** | TypeScript 5.7 |
+| **Estilos** | Tailwind CSS 4 |
+| **Componentes** | shadcn/ui |
+| **Iconos** | Lucide React |
+| **Package Manager** | pnpm |
+| **Bundler** | Turbopack |
+
+## Roadmap futuro
+
+Cosas que planeo agregar:
+
+- **v1.1.0**: Blog con artículos técnicos
+- **v1.2.0**: Formulario de contacto + notificaciones
+- **v2.0.0**: Dark/Light mode automático
+- **v2.1.0**: Multi-idioma (ES/EN)
+
+## Contacto
+
+Me encantaría escuchar tus comentarios o si tienes alguna pregunta:
+
+- **Email:** mayratorremunares@gmail.com
+- **GitHub:** [@MayraStefany](https://github.com/MayraStefany)
+- **LinkedIn:** [Mayra Torres](www.linkedin.com/in/mayra-stefany-torres-munares)
+
+## Agradecimientos
+
+Este proyecto fue construido con inspiración en mejores prácticas de desarrollo web moderno. Gracias a la comunidad de Next.js, React y Tailwind CSS.
 
 ---
 
-## 📚 Recursos Útiles
+**Hecho con ❤️ por Mayra Torres | DevOps Engineer**
 
-- [Next.js Documentation](https://nextjs.org/docs) 📖
-- [Tailwind CSS](https://tailwindcss.com) 🎨
-- [React Docs](https://react.dev) ⚛️
-- [TypeScript Handbook](https://www.typescriptlang.org/docs) 📘
-- [Vercel Deployment](https://vercel.com/docs) 🚀
-
----
-
-## 🗺️ Roadmap
-
-### v1.1.0 (Blog)
-- [ ] Sección de artículos técnicos
-- [ ] Sistema de tags y búsqueda
-- [ ] RSS feed
-
-### v1.2.0 (Interactividad)
-- [ ] Formulario de contacto
-- [ ] Sistema de notificaciones
-- [ ] Dark/Light mode toggle
-
-### v2.0.0 (Redesign)
-- [ ] Nuevo tema visual
-- [ ] CMS integrado
-- [ ] Multi-idioma
-
----
-
-## 📄 Licencia
-
-MIT © 2025 Mayra Torres
-
----
-
-## 👤 Autor
-
-**Mayra Torres** | DevOps Engineer
-
-- Email: [mayra@devops.com](mailto:mayratorresmunares@gmail.com)
-- GitHub: [@MayraStefany](https://github.com/MayraStefany)
-- LinkedIn: [Mayra Torres](www.linkedin.com/in/mayra-stefany-torres-munares)
-
----
-
-## 🤝 Contribuciones
-
-Este es un proyecto personal, pero puedes reportar bugs o sugerencias:
-
-1. Abre un [GitHub Issue](https://github.com/MayraStefany/portafolio-mayra-v2/issues/new)
-2. Describe el problema o sugerencia
-3. Incluye capturas de pantalla si es necesario
-
----
-
-<div align="center">
-
-### ⭐ Si te gustó, dale una estrella en GitHub!
-
-**Made with ❤️ by Mayra Torres**
-
-**Última actualización**: Diciembre 2025 | v1.0.0
-
-</div>
+*Última actualización: Diciembre 2025 | v1.0.0*
