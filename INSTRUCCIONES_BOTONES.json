@@ -1,0 +1,42 @@
+{
+  "botones_funcionales": {
+    "descargar_cv": {
+      "ubicacion": ["Hero.tsx", "Footer.tsx"],
+      "funcion": "handleDownloadCV()",
+      "archivo": "public/cv-mayra-devops.pdf",
+      "instruccion": "Reemplaza el archivo PDF en public/"
+    },
+    "mis_proyectos": {
+      "ubicacion": "Hero.tsx",
+      "funcion": "handleGoToProjects()",
+      "efecto": "Scroll suave a #projects"
+    },
+    "filtros_proyectos": {
+      "ubicacion": "Projects.tsx",
+      "categorias": ["all", "automation", "integration", "devops", "mlops"],
+      "funcion": "setSelectedCategory()"
+    },
+    "email_contacto": {
+      "ubicacion": "Footer.tsx",
+      "funcion": "handleEmail()",
+      "email": "mayra@devops.com",
+      "instruccion": "Cambia a tu email real"
+    },
+    "github": {
+      "ubicacion": "Footer.tsx",
+      "funcion": "handleGitHub()",
+      "url": "https://github.com",
+      "instruccion": "Actualiza con tu URL de GitHub"
+    },
+    "linkedin": {
+      "ubicacion": "Footer.tsx",
+      "funcion": "handleLinkedIn()",
+      "url": "https://linkedin.com",
+      "instruccion": "Actualiza con tu URL de LinkedIn"
+    },
+    "navegacion": {
+      "ubicacion": "Navigation.tsx",
+      "tipos": ["smooth scroll a sections", "#home", "#about", "#skills", "#projects", "#experience", "#contact"]
+    }
+  }
+}
