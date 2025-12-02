@@ -14,29 +14,31 @@ Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia
 
 ## Estructura del proyecto
 
+```
 📦 portafolio-mayra-v2/
 ├── 📁 app/
-│ ├── layout.tsx # Layout principal
-│ ├── page.tsx # Página de inicio
-│ └── globals.css # Estilos globales
+│   ├── layout.tsx                 # Layout principal
+│   ├── page.tsx                   # Página de inicio
+│   └── globals.css                # Estilos globales
 ├── 📁 components/
-│ ├── navigation.tsx # Barra de navegación
-│ ├── hero.tsx # Sección principal
-│ ├── about.tsx # Sobre mí
-│ ├── skills.tsx # Habilidades técnicas
-│ ├── projects.tsx # Mis proyectos
-│ ├── experience.tsx # Experiencia profesional
-│ └── footer.tsx # Pie de página
-├── 📁 public/ # Archivos estáticos
-├── 📁 scripts/ # Scripts útiles
-│ ├── clean-git.sh
-│ ├── optimize-images.sh
-│ └── check-size.sh
+│   ├── navigation.tsx             # Barra de navegación
+│   ├── hero.tsx                   # Sección principal
+│   ├── about.tsx                  # Sobre mí
+│   ├── skills.tsx                 # Habilidades técnicas
+│   ├── projects.tsx               # Mis proyectos
+│   ├── experience.tsx             # Experiencia profesional
+│   └── footer.tsx                 # Pie de página
+├── 📁 public/                     # Archivos estáticos
+├── 📁 scripts/                    # Scripts útiles
+│   ├── clean-git.sh
+│   ├── optimize-images.sh
+│   └── check-size.sh
 └── 📋 Configuración
-├── package.json
-├── next.config.mjs
-├── tsconfig.json
-└── .gitignore
+    ├── package.json
+    ├── next.config.mjs
+    ├── tsconfig.json
+    └── .gitignore
+```
 
 
 ## Cómo usar este proyecto
