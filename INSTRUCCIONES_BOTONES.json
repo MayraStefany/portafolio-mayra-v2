@@ -3,8 +3,7 @@
     "descargar_cv": {
       "ubicacion": ["Hero.tsx", "Footer.tsx"],
       "funcion": "handleDownloadCV()",
-      "archivo": "public/cv-mayra-devops.pdf",
-      "instruccion": "Reemplaza el archivo PDF en public/"
+      "archivo": "public/CV_Mayra Torres Munares.pdf"
     },
     "mis_proyectos": {
       "ubicacion": "Hero.tsx",
@@ -25,14 +24,12 @@
     "github": {
       "ubicacion": "Footer.tsx",
       "funcion": "handleGitHub()",
-      "url": "https://github.com",
-      "instruccion": "Actualiza con tu URL de GitHub"
+      "url": "https://github.com/MayraStefany"
     },
     "linkedin": {
       "ubicacion": "Footer.tsx",
       "funcion": "handleLinkedIn()",
-      "url": "https://linkedin.com",
-      "instruccion": "Actualiza con tu URL de LinkedIn"
+      "url": "www.linkedin.com/in/mayra-stefany-torres-munares"
     },
     "navegacion": {
       "ubicacion": "Navigation.tsx",
