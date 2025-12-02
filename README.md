@@ -1,18 +1,27 @@
 # Mayra Torres | DevOps Engineer
 
-¡Bienvenido a mi portafolio profesional! Aquí encontrarás una visión clara de mi experiencia, habilidades y proyectos en el mundo de DevOps, automatización y cloud computing.
+¡Bienvenido a mi portafolio profesional! Aquí encontrarás una visión clara y bien estructurada de mi experiencia, habilidades y proyectos dentro del mundo de DevOps, automatización y cloud computing.
 
 ## Sobre este proyecto
 
-Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia de manera moderna y profesional. Es un proyecto Next.js minimalista pero potente, diseñado con atención a los detalles y optimizado para ofrecer la mejor experiencia tanto a quienes lo visitan como a otros desarrolladores que quieran explorar el código.
+Creé este portafolio con el objetivo de mostrar mi trabajo de una manera moderna, visual y profesional. Es un proyecto construido con un enfoque minimalista pero potente, utilizando tecnologías actuales que permiten un rendimiento óptimo y una excelente experiencia de usuario.
 
-**Tecnologías principales:**
-- Next.js 16 + React 19.2
-- TypeScript para type safety
-- Tailwind CSS 4 para estilos
-- Componentes accesibles con shadcn/ui
+Cada sección fue diseñada con atención al detalle, no solo para quienes desean conocer mi perfil profesional, sino también para otros desarrolladores que quieran explorar la estructura, componentes y buenas prácticas que implementé.
 
-## Estructura del proyecto
+
+## 🚀 Tecnologías principales
+
+![NextJS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide%20Icons-000000?style=for-the-badge&logo=lucide&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+
+---
+
+## 📁 Estructura del proyecto
 
 ```
 📦 portafolio-mayra-v2/
@@ -40,158 +49,9 @@ Decidí crear este portafolio como una forma de mostrar mi trabajo y experiencia
     └── .gitignore
 ```
 
+---
 
-## Cómo usar este proyecto
-
-### Requisitos
-- Node.js 18 o superior
-- pnpm, npm o yarn
-
-### Instalación rápida
-
-\`\`\`bash
-# Clonar el repositorio
-git clone https://github.com/MayraStefany/portafolio-mayra-v2.git
-cd Portafolio_MayraTorres
-
-# Instalar dependencias
-pnpm install
-
-# Iniciar servidor de desarrollo
-pnpm dev
-\`\`\`
-
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador. ✨
-
-### Comandos disponibles
-
-\`\`\`bash
-pnpm dev              # 🚀 Desarrollo local
-pnpm build            # 🔨 Compilar para producción
-pnpm start            # ▶️ Ejecutar producción
-pnpm lint             # 🔍 Verificar código
-
-# Scripts opcionales
-bash scripts/clean-git.sh           # Limpiar node_modules de Git
-bash scripts/optimize-images.sh     # Optimizar imágenes
-bash scripts/check-size.sh          # Analizar tamaño del repo
-\`\`\`
-
-## Cómo personalizar este portafolio
-
-### 1. Cambiar información personal
-
-**En `components/hero.tsx`:**
-- Edita el título y descripción principal
-- Actualiza el link de descargar CV
-
-**En `components/navigation.tsx`:**
-- Cambia "Mayra | DevOps Engineer" por tu nombre y rol
-
-### 2. Actualizar tus habilidades
-
-**En `components/skills.tsx`:**
-Modifica el objeto `skillsData` con tus tecnologías:
-
-\`\`\`tsx
-const skillsData = [
-  {
-    category: "Cloud",
-    skills: ["Azure", "AWS", "GCP", "Kubernetes"]
-  },
-  // Agrega más categorías según necesites
-]
-\`\`\`
-
-### 3. Agregar tus proyectos
-
-**En `components/projects.tsx`:**
-Completa el objeto `projectsData`:
-
-\`\`\`tsx
-const projectsData = [
-  {
-    title: "Nombre del proyecto",
-    description: "Qué hizo y por qué",
-    tags: ["Tech 1", "Tech 2"],
-    link: "https://github.com/...",
-    impact: "Resultado o métrica de impacto"
-  }
-]
-\`\`\`
-
-### 4. Cambiar colores
-
-**En `app/globals.css`:**
-Modifica las variables CSS:
-
-\`\`\`css
-:root {
-  --primary: #0088ff;        /* Azul principal */
-  --accent: #00d9ff;         /* Cyan acento */
-  --background: #0f172a;     /* Fondo oscuro */
-  --foreground: #f0f4f8;     /* Texto claro */
-}
-\`\`\`
-
-## Problemas comunes y soluciones
-
-### Error: "File node_modules too large" al hacer push a GitHub
-
-Si ves este error al hacer `git push`:
-
-\`\`\`bash
-# Ejecuta este script
-bash scripts/clean-git.sh
-
-# Luego haz push nuevamente
-git push -u origin master-dev
-\`\`\`
-
-**¿Qué hace?** Limpia node_modules de Git para reducir el tamaño del repositorio.
-
-### Error: "Port 3000 in use"
-
-\`\`\`bash
-# Usa otro puerto
-pnpm dev -- -p 3001
-\`\`\`
-
-### Error: "Module not found"
-
-\`\`\`bash
-# Reinstala todo
-rm -rf node_modules .next
-pnpm install
-pnpm dev
-\`\`\`
-
-## Despliegue
-
-### Opción 1: Vercel (Recomendado)
-
-1. Sube tu código a GitHub
-2. Ve a [vercel.com](https://vercel.com)
-3. Conecta tu repositorio
-4. Cada push a `master-dev` se despliega automáticamente ✨
-
-### Opción 2: Otros servicios
-
-- [Netlify](https://netlify.com) - Muy fácil
-- [GitHub Pages](https://pages.github.com) - Gratis
-- [Cloudflare Pages](https://pages.cloudflare.com) - Rápido
-- Servidor propio con Docker o Linux
-
-## Rendimiento
-
-Este portafolio fue optimizado para máxima velocidad y accesibilidad:
-
-- ⚡ **98/100** en Performance (Lighthouse)
-- ♿ **96/100** en Accessibility
-- 📋 **95/100** en Best Practices
-- 🔍 **100/100** en SEO
-
-## Stack tecnológico completo
+## 🧩 Stack tecnológico completo
 
 | Categoría | Tecnología |
 |-----------|-----------|
@@ -204,26 +64,33 @@ Este portafolio fue optimizado para máxima velocidad y accesibilidad:
 | **Package Manager** | pnpm |
 | **Bundler** | Turbopack |
 
-## Roadmap futuro
+---
+
+## 🛣️ Roadmap futuro
 
 Cosas que planeo agregar:
 
-- **v1.1.0**: Blog con artículos técnicos
-- **v1.2.0**: Formulario de contacto + notificaciones
-- **v2.0.0**: Dark/Light mode automático
-- **v2.1.0**: Multi-idioma (ES/EN)
+- **v1.1.0**: Blog con artículos técnicos  
+- **v1.2.0**: Formulario de contacto + notificaciones  
+- **v2.0.0**: Dark/Light mode automático  
+- **v2.1.0**: Multi-idioma (ES/EN)  
 
-## Contacto
+---
+
+## 📬 Contacto
 
 Me encantaría escuchar tus comentarios o si tienes alguna pregunta:
 
-- **Email:** mayratorremunares@gmail.com
-- **GitHub:** [@MayraStefany](https://github.com/MayraStefany)
-- **LinkedIn:** [Mayra Torres](www.linkedin.com/in/mayra-stefany-torres-munares)
+- **Email:** mayratorremunares@gmail.com  
+- **GitHub:** https://github.com/MayraStefany  
+- **LinkedIn:** https://www.linkedin.com/in/mayra-stefany-torres-munares  
 
-## Agradecimientos
+---
 
-Este proyecto fue construido con inspiración en mejores prácticas de desarrollo web moderno. Gracias a la comunidad de Next.js, React y Tailwind CSS.
+## 🙌 Agradecimientos
+
+Este proyecto fue construido con inspiración en mejores prácticas de desarrollo web moderno.  
+Gracias a la comunidad de Next.js, React y Tailwind CSS.
 
 ---
 
